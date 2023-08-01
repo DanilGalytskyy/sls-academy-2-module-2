@@ -1,0 +1,24 @@
+{
+  "name": "04-shortlinker-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "resolve": {
+    "extentions": [
+      ".js",
+      ".mjs"
+    ]
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.1",
+    "nanoid": "^4.0.2"
+  }
+}
